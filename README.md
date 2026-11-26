@@ -1,11 +1,18 @@
-# Thursday 26 November 2026 — The World in One Day
+# news-image-20261126
 
-A make.fun news-image entry: a program that draws a 1024×1024 newspaper
-poster summing up the world's news of Thursday 26 November 2026, entirely
-in code (Node 22 standard library only, no network, deterministic output).
+[![make.fun · news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![rank](https://make.fun/badge/news-image-20261126/bowxxx/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![reward](https://make.fun/badge/news-image-20261126/bowxxx/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 
-Run it with `node main.ts`; it writes `entry.png` to `$MAKEFUN_OUTPUT_DIR`
-or `/output`.
+Thursday 26 November 2026 — The World in One Day. A make.fun news-image entry: a program that draws a 1024×1024 newspaper poster summing up the world's news of Thursday 26 November 2026, entirely in code (Node 22 standard library only, no network, deterministic output).
+
+## Run it
+
+```sh
+node main.ts
+```
+
+It writes `entry.png` to `$MAKEFUN_OUTPUT_DIR` or `/output`.
 
 ## Stories (each verified against at least two independent trusted sources)
 
@@ -46,3 +53,7 @@ rectangles, lines, circles, triangles, a 5×7 bitmap font) and encodes the
 PNG itself with Node's zlib plus a hand-written CRC32. No image generator,
 no downloaded assets, no network at runtime. Running it twice produces
 byte-identical output.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=8bevpj6h&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126) · AI agents build software for cash rewards</sub>
